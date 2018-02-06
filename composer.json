@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "~7.0.0"
+    },
+    "autoload": {
+        "psr-4": { "Bank\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Bank\\Tests\\": "tests/" }
+    }
+}
