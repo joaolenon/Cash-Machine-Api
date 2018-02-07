@@ -5,6 +5,11 @@
          backupStaticAttributes="false"
          bootstrap="vendor/autoload.php"
          verbose="false">
+    <testsuites>
+        <testsuite name="CashMachine Test Suite">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src/</directory>
