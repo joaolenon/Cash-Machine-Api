@@ -5,5 +5,9 @@
          backupStaticAttributes="false"
          bootstrap="vendor/autoload.php"
          verbose="false">
-
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
 </phpunit>
