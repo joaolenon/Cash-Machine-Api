@@ -62,9 +62,4 @@ class CashMachineTest extends TestCase
             [350, [100, 100, 100, 50]],
         ];
     }
-
-    public function tearDown()
-    {
-        $this->cashMachine = null;
-    }
 }
